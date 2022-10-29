@@ -40,13 +40,19 @@ if they are not logged in.
 # Future Development Ideas
 
 I would like to further develop this so that the user gets access to something after they have logged in for example their notes, art, reminders etc
+
 I would like to implement email validation for example an email would be sent to the email provided by the user and then the user would click a link to validate the email
+
 I would like to make it responsive so mobile users can use the website
 
 # What I Learned
 
 I have learned the basics of web development using frameworks like Django and Flask
+
 I learned how to communicate with web browsers and servers using http through get and post requests for example when I needed to get the users username and password out of the text fields using a post request
+
 I have learned more about databases using libraries such as sqlalchemy and sqlite3
+
 I have learned more about cookies and security for example hashing the passwords from string format
+
 Form handling and validation of data
