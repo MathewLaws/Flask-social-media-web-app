@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %}Sign-up{% endblock %}
+
+{% block content %}
+<h1 style="padding: 50px; font-family: 'Times New Roman', Times, serif;">Sign Up</h1>
+<form class="row g-3" method="post">
+    <div class="col-md-4">
+      <label for="validationCustomUsername" class="form-label">Username</label>
+      <div class="input-group has-validation">
+        <span class="input-group-text" id="inputGroupPrepend">@</span>
+        <input type="text" placeholder="Username" class="form-control" name="username" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+        <div class="invalid-feedback">
+          Please choose a username.
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <label for="validationCustom03" class="form-label">Password</label>
+      <input type="text" placeholder="Password" class="form-control" name="password" id="validationCustom03" required>
+      <div class="invalid-feedback">
+        Please provide a valid city.
+      </div>
+    </div>
+    <div class="col-12">
+      <button class="btn btn-primary" type="submit">Submit form</button>
+    </div>
+</form>
+{% endblock %}
